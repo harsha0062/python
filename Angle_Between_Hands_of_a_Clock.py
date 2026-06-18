@@ -93,4 +93,4 @@ result = min(diff, 360 - diff)
 print(f"min_angle = {minutes} * 6 = {min_angle}")
 print(f"hour_angle = ({hour} % 12) * 30 + {minutes} * 0.5 = {hour_angle}")
 print(f"diff = |{hour_angle} - {min_angle}| = {diff}")
-print(f"min({diff}, 360 - {diff}) = {result}")s
+print(f"min({diff}, 360 - {diff}) = {result}")
